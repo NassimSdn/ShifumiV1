@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+body {
+background-image: url(/Shifumi/Public/assets/img/usa-brooklyn-bridge-wallpaper-preview-ConvertImage.jpg);
+/* background-position: center; */
+background-repeat: no-repeat;
+background-size: 1600px 1300px;
+width: 100%;
+color: #252925;
+font-family: cursive; 
+overflow-x: hidden;
+}
+
+h1 {
+text-align: center; 
+text-decoration: underline;
+margin-top: 4%;
+}
+
+p { 
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.button1 {
+  background-image: url(../img/dosDeCarte.JPEG);
+  background-position: center;
+  background-size: cover;
+  border-radius: 35px;
+  border: none;
+  color: #BE493E;
+  transition-duration: 0.6s;
+  width: 22%;
+  height: 95%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  padding-top: 30%;
+  size: 10px;
+  background-color: #E6E5E0;
+  transition: 500ms linear; 
+}
+
+.button1:hover {
+    background-color: #BE493E; 
+    color: white;
+    background-image: url(../img/johnDillinger.png);
+    background-position-x: center;
+    background-size: cover;
+}
+
+.button2 {
+  background-image: url(../img/dosDeCarte.JPEG);
+  background-position: center;
+  background-size: cover;
+  border-radius: 35px;
+  border: none;
+  color: #BE493E;
+  transition-duration: 0.6s;
+  padding-top: 0.5%;
+  width: 22%;
+  height: 95%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  padding-top: 30%;
+  size: 10px;
+  transition: 500ms linear; 
+  background-color: #E6E5E0;
+}
+
+.button2:hover {
+  background-color: #BE493E; 
+  color: white;
+  background-image: url(../img/frankLucas.png);
+  background-position-x: center;
+  background-size: cover;
+}
+
+
+.button3 {
+  background-image: url(../img/dosDeCarte.JPEG);
+  background-position: center;
+  background-size: cover;
+  border-radius: 35px;
+  border: none;
+  color: #BE493E;
+  transition-duration: 0.6s;
+  padding-top: 0.5%;
+  width: 22%;
+  height: 95%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  padding-top: 30%;
+  size: 10px;
+  background-color: #E6E5E0;
+  transition: 500ms linear; 
+}
+
+.button3:hover 
+{
+    background-color: #BE493E; 
+    color: #E6E5E0;
+    background-image: url(../img/luckyLuciano.png);
+    background-position-x: center;
+    background-size: cover;
+}
+
+
+.Money 
+{
+  background-color: rgb(98, 98, 98);
+  color: white;
+  line-height: 300%;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  margin-top: -4%
+}
+
+.VicDef 
+{
+  color: #000000;
+  font-size: 170%;
+  font-weight: bold;
+  background-color: rgb(105, 104, 104);
+  justify-content: center;
+  margin-left: 33%;
+  margin-right: 33%;
+  margin-top: 2%;
+  text-align: center;}
+
+
+.PlayerRobot 
+{
+  color: #EEE;
+  width: 50%;
+  font-size: 120%
+  
+}
+
+.PerduGagne
+{  
+  width: 500px;
+  /* margin-left: 36%; */
+  color: #EEE;
+  font-size: 150%;
+  font-weight: bold; 
+}
+
+.Parties
+{
+  color: #EEE;
+  width: 500px;
+  /* margin-left: 36%; */
+  font-size: 120% 
+}
+
+.Victoires
+{
+  width: 500px;
+  /* margin-left: 36%;  */
+}
+
+.bgForResult {
+    margin-left: 33%;
+    margin-right: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(105, 104, 104);
+    text-align: center;
+}
+
+.alCapone {
+    width: 10%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 2%;
+}
+
+.containerAlCapone {
+    display: flex;
+    justify-content: center;
+}
+
+.johnDillinger {
+  height: 95%;
+  width: 50%;
+  object-fit: cover;
+}
+
+.frankLucas {
+  height: 95%;
+  width: 65%;
+  object-fit: cover;
+  
+}
+
+.luckyLuciano {
+  height: 95%;
+  width: 65%;
+  object-fit: cover;
+}
+
+.containerGangster {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    margin-top: 14%
+  }
+  
+  .containerGangster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .button1 {
+    margin-bottom: 2%;
+    border-radius: 5px;
+    padding-top: 70%;
+    padding-left: 25%;
+    padding-right: 25%;  }
+
+  .button2 {
+    margin-bottom: 2%;
+    border-radius: 5px;
+    padding-top: 70%;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  .button3 {
+    margin-bottom: 2%;
+    border-radius: 5px;
+    padding-top: 70%;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  .Money {
+    margin-top: -14%;
+  }
+
+  .bgForResult {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
